@@ -1262,6 +1262,139 @@ public static void main(String[] args) {
 
 </details>
 
+<details>
+<summary>Rendezések</summary>
+
+---
+
+<details>
+<summary>Buborékrendezés</summary>
+
+---
+
+```
+public static void main(String[] args) {
+
+	int[] arr = {1,2,3,4,5,6,7,8,9,10,...};
+
+	System.out.print("Tömb elemei: ");
+	for(int item : arr) {
+		System.out.print(item + " ");
+	}
+	System.out.println();
+
+	System.out.print("Rendezett tömb elemei: ");
+	for(int item : bubbleSort(arr)) {
+		System.out.print(item + " ");
+	}
+}
+
+public static int[] bubbleSort(int[] arr) {
+	int temp;
+
+	for(int i = 0; i < arr.length; i++) {
+		for(int j = 0; j < arr.length-i-1; j++) {
+			if(arr[j] > arr[j+1]) {
+				temp = arr[j];
+				arr[j] = arr[j+1];	
+				arr[j+1] = temp;
+			}
+		}
+	}
+	return arr;
+}
+```
+
+</details>
+
+<details>
+<summary>Egyszerű cserés rendezés</summary>
+
+---
+
+```
+public static void main(String[] args) {
+
+	int[] arr = {1,2,3,4,5,6,7,8,9,10,...};
+
+	System.out.print("Tömb elemei: ");
+	for(int item : arr) {
+		System.out.print(item + " ");
+	}
+	System.out.println();
+
+	System.out.print("Tömb elemei rendezve: ");
+	for(int item : exchangeSort(arr)) {
+		System.out.print(item + " ");
+	}
+}
+
+private static int[] exchangeSort(int[] arr) {
+	for(int i = 0; i < arr.length-1; i++) {
+		for(int j = i+1; j < arr.length; j++) {
+			if(arr[i] > arr[j]) {
+				int temp = arr[j];
+				arr[j] = arr[i];
+				arr[i] = temp;
+			}
+		}
+	}
+
+	return arr;
+}
+```
+
+</details>
+
+<details>
+<summary>Minimum kiválasztásos rendezés</summary>
+
+---
+
+```
+public static void main(String[] args) {
+		
+	int[] arr = {1,2,3,4,5,6,7,8,9,10,...};
+
+	System.out.print("Tömb elemei: ");
+	for(int item : arr) {
+		System.out.print(item + " ");
+	}
+	System.out.println();
+
+	System.out.print("A tömb rendezve: ");
+	minChangeSort(arr);
+}
+
+private static void minChangeSort(int[] arr) {
+	int change;
+	int minIndex;
+
+	for (int i = 0; i < arr.length; i++) {
+		minIndex = i;
+		for (int j = i+1; j < arr.length; j++) {
+			if (arr[j] < arr[minIndex]) {
+				minIndex = j;
+			}
+		}
+	
+		//csere
+		if (i != minIndex) {
+			change = arr[i];
+			arr[i] = arr[minIndex];
+			arr[minIndex] = change;
+		}
+		System.out.print((i+1) + ".futás: ");
+		for(int item : arr) {
+			System.out.print(item + " ");
+		}
+		System.out.println();
+	}
+}
+```
+
+</details>
+
 </details>
 
 [Főmenü](../README.md)
