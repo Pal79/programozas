@@ -860,4 +860,375 @@ System.out.println("6-ost dobtál gratulálok!!!");
 
 </details>
 
+
+<details>
+<summary>Programozási tételek</summary>
+
+<details>
+<summary>Eldöntés</summary>
+
+- egy halmazon belül vizsgáljuk,
+- hogy egy érték benne van,
+- vagy nincs.
+
+- true/false
+
+```
+public static boolean decide(int[] arr, int search) {
+	boolean answer = false;
+	int i = 0;
+
+	while (i < arr.length && arr[i] != search) {
+		i++;
+	}
+
+	if (i < arr.length) {
+		answer = true;
+	}
+	return answer;
+}
+
+public static void main(String[] args) {
+	int search = 10;
+	int[] arr = {1,2,3,4,5,6,7,8,9,10,11,...};
+
+	if(decide(arr, search)) {
+		System.out.println("Az adott szám: " + search + " benne van a tömbben.");
+	} else {
+		System.out.println("Az adott szám: " + search + " nincs benne a tömbben.");
+	}
+}
+```
+ 
+</details>
+
+<details>
+<summary>Kiválasztás</summary>
+
+- egy sorozatban keresünk egy elemet,
+- de biztosan tudjuk, hogy valahol benne van.
+
+```
+public static int selection(int[] arr, int search) {
+	int i = 0;
+	while (arr[i] != search) {
+		i++;
+	}
+	return i;
+}
+
+public static void main(String[] args) {
+	int index = 10;
+	int[] arr = {1,2,3,4,5,6,7,8,9,10,11,...};
+
+	System.out.println("A keresett szám indexe: " + selection(arr, index));
+}
+```
+
+</details>
+
+<details>
+<summary>Kiválogatás</summary>
+
+- egy halmaz elemei közül kiválogatjuk
+- az adott tulajdonságú elemket
+
+```
+public static int evenPieceCount(int[] arr) {
+	int count = 0;
+	for (int item : tomb) {
+		if (item %2==0) {
+			count++;
+		}
+	}
+	return count;
+}
+
+public static void main(String[] args) {
+	int[] arr = {1,2,3,4,5,6,7,8,9,10,11,...};
+
+	System.out.print("A tömb elemei: ");
+	for(int item : arr) {
+		System.out.print(item + " ");
+	}
+	System.out.println();
+
+	int[] evenArray = new int[evenPieceCount(arr)];
+	int[] unmatchedArray = new int[arr.length - evenPieceCount(evenArray)];
+	int evenIndex = 0;
+	int unmatchedIndex = 0;
+
+	for(int i = 0; i < arr.length; i++) {
+		if(arr[i] % 2 == 0) {
+			evenArray[evenIndex] = arr[i];
+			evenIndex++;
+		} else {
+			unmatchedArray[unmatchedIndex] = arr[i];
+			unmatchedIndex++;
+		}
+	}
+
+	System.out.print("A tömb páros elemei: ");
+	for(int item : evenArray) {
+		System.out.print(item + " ");
+	}
+	System.out.println();
+
+	System.out.print("A tömb páratlan elemei: ");
+	for(int item : unmatchedArray) {
+		System.out.print(item + " ");
+	}
+}
+```
+
+</details>
+
+<details>
+<summary>Maximum kiválasztás</summary>
+
+- egy halmazon belül keressük
+- a legnagyobb értékű elemet.
+
+- kiegészítés: Melyik indexen van a legnagyobb érték?
+
+```
+public static void main(String[] args) {
+	int[] arr = {1,2,3,4,5,6,7,8,9,10,11,...};
+
+	int max = arr[0];
+	int maxIndex = 0;
+
+	for(int i = 0; i < arr.length; i++) {
+		if(arr[i] > max) {
+			max = arr[i];
+			maxIndex = i;
+		}
+	}
+	System.out.println("Maximum érték a tömbben: " + max + "\nMaximum érték indexe: " + maxIndex);
+}
+```
+
+</details>
+
+<details>
+<summary>Minimum kiválasztás</summary>
+
+- Egy halmazon belül keressük a legkisebb értékű elemet
+
+```
+public static void main(String[] args) {
+	int[] arr = {1,2,3,4,5,6,7,8,9,10,11,...};
+
+	int min = arr[0];
+	int minIndex = 0;
+
+	for(int i = 0; i < arr.length; i++) {
+		if(arr[i] < min) {
+			min = arr[i];
+			minIndex = i;
+		}
+	}
+	System.out.println("Minimum érték a tömbben: " + min + "\nMinimum érték indexe: " + minIndex);
+}
+```
+
+</details>
+
+<details>
+<summary>Megszámlálás</summary>
+
+- Meghatározza egy halmazon belül az adott tulajdonságú elemek számát
+
+```
+public static void main(String[] args) {
+	int[] arr = {1,2,3,4,5,6,7,8,9,10,11,...};
+
+	int evenCount = 0;
+	int unmatchedCount = 0;
+
+	for(int item : arr) {
+		if(item % 2 == 0) {
+			evenCount++;
+		} else {
+			unmatchedCount++;
+		}
+	}
+	System.out.println("A tömb páros elemeinek száma: " + evenCount + "\nA tömb páratlan elemeinek száma: " + unmatchedCount);
+}
+```
+
+</details>
+
+<details>
+<summary>Metszet</summary>
+
+- azoknak az elemeknek a kiválasztása,
+- amelyek mind a két halmazban megtalálhatóak.
+
+- Az egyes tömbökön belül nem lehetnek ismétlődések.
+
+```
+public static boolean decide(int[] arr, int search) {
+	boolean itsIn = false;
+	int i = 0;
+
+	do {
+		if(arr[i] == search) {
+			itsIn = true;
+		}
+		i++;
+	} while(!itsIn && i < arr.length);
+
+	return itsIn;
+}
+
+public static int newArraySize(int[] arrA, int[] arrB) {
+	// kiderítjük, hány darab egyezés van - ez lesz az új tömb mérete
+	int count = 0;
+
+	for(int i = 0; i < arrB.length; i++) {
+		if(decide(arrA, arrB[i])) {
+			count++;
+		}
+	}
+
+	return count;
+}
+
+public static int[] resultArrListening(int[] arrA, int[] arrB) {
+	int[] resultArr = new int[newArraySize(arrA, arrB)];
+	int index = 0;
+
+	for(int i = 0; i < arrB.length; i++) {
+		if(decide(arrA, arrB[i])) {
+			resultArr[index] = arrB[i];
+			index++;
+		}
+	}
+	return resultArr;
+}
+
+public static void main(String[] args) {
+	int[] arrA = {1,2,3,4,5,6,7,8,9,10};
+	int[] arrB = {6,7,8,9,10,11,12,13,14,15};
+
+	System.out.print("\"A\" tömb elemei: ");
+	for(int item : arrA) {
+		System.out.print(item + " ");
+	}
+	System.out.println();
+
+	System.out.print("\"B\" tömb elemei: ");
+	for(int item : arrB) {
+		System.out.print(item + " ");
+	}
+	System.out.println();
+
+	System.out.print("Metszet: ");
+	for(int item : resultArrListening(arrA, arrB)) {
+		System.out.print(item + " ");
+	}
+}
+```
+
+</details>
+
+<details>
+<summary>Összegzés</summary>
+
+- Meghatározza egy számsorozat(tömb) elemeinek összegét
+
+```
+public static void main(String[] args) {
+	int[] arr = {1,2,3,4,5,6,7,8,9,10,11,...};
+	int result = 0;
+
+	for(int item : arr) {
+		result += item;
+	}
+	System.out.println(result);
+}
+```
+
+</details>
+
+<details>
+<summary>Unio</summary>
+
+- két halmaz elemei közül legalább az egyikben szerepelnie kell.
+- A halmazokon belül nincs ismétlődés
+
+```
+private static boolean decide(int[] arr, int search) {
+	boolean itsIn = false;
+	int i = 0;
+
+	do {
+		if (arr[i] == search) {
+			itsIn = true;
+		}
+		i++;
+	} while (!itsIn && i < arr.length);
+	return itsIn;
+}
+
+private static int matchesNumbersDefines(int[] arrA, int[] arrB) {
+	int count = 0;
+
+	for (int i = 0; i < arrB.length; i++) {
+		if (decide(arrA, arrB[i])) {
+			count++;
+		}
+	}
+	return count;
+}
+
+private static int[] resultArray(int[] arrA, int[] arrB) {
+	int arraySize = (arrA.length + arrB.length) - matchesNumbersDefines(arrA, arrB);
+	int[] resultArray = new int[arraySize];
+
+	//1.lépés arrA-ból minden elemet belepakolok az eredmenytömbbe
+	for(int i = 0; i < arrA.length; i++) {
+		resultArray[i] = arrA[i];
+	}
+
+	//2. lépés: arrB-ből azokat helyezzük bele, ami még nincs benne
+	int resultArraySize = arrA.length;
+
+	for(int i = 0; i < arrB.length; i++) {
+		if(!decide(resultArray, arrB[i])) {
+			resultArray[resultArraySize] = arrB[i];
+			resultArraySize++;
+		}
+	}
+	return resultArray;		
+}
+
+public static void main(String[] args) {
+	int[] arrA = {1,2,3,4,5,6,7,8,9,10};
+	int[] arrB = {6,7,8,9,10,11,12,13,14,15};
+
+	System.out.print("\"A\" tömb elemei: ");
+	for(int item : arrA) {
+		System.out.print(item + " ");
+	}
+	System.out.println();
+
+	System.out.print("\"B\" tömb elemei: ");
+	for(int item : arrB) {
+		System.out.print(item + " ");
+	}
+	System.out.println();
+
+	System.out.print("Unio: ");
+	for(int item : resultArray(arrA, arrB)) {
+		System.out.print(item + " ");
+	}
+}
+```
+
+</details>
+
+</details>
+
 [Főmenü](../README.md)
