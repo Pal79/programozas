@@ -6,6 +6,8 @@
 <details>
 <summary>Típusok</summary>
 
+---
+
 # Alapvető típusok
 
 | Primitív típus | Osztály | Leírás | min | max |
@@ -212,6 +214,8 @@ System.out.println(fraction4);
 <details>
 <summary>OPERÁTOROK -> műveletvégző "jelek"</summary>
 
+---
+
 > OPERANDUS -> amiken a műveleteket végezzük
 
 ```
@@ -318,6 +322,8 @@ System.out.println(5 <= 5); //true
 <details>
 <summary>Számítások</summary>
 
+---
+
 # Math osztály elemei
 
 ### hatványozás
@@ -373,6 +379,8 @@ System.out.println(Math.ceil(24.1)); //25.0
 <details>
 <summary>Véletlen számok generálása</summary>
 
+---
+
 > new operátor memória terület foglalás - példányosítás
 
 > r néven létrejön az objektum
@@ -410,6 +418,8 @@ System.out.println("Véletlen szám 5-10: " + tesztVelSzam3);
 
 <details>
 <summary>Kiírás, beolvasás</summary>
+
+---
 
 # Scanner és BufferedReader
 
@@ -502,6 +512,8 @@ scObj.close();
 
 <details>
 <summary>Elágazások</summary>
+
+---
 
 - Mikor használjuk?
 - Egy feltételtől függően a programunkat valamilyen irányba szeretnénk vezérelni.
@@ -680,6 +692,8 @@ sc.close();
 <details>
 <summary>Ciklusok</summary>
 
+---
+
 - Ciklust mikor használunk?
 - Ha ismétlődő utasításra vagy utasításokra van szükség
 - For ciklust mikor használjuk?
@@ -817,8 +831,9 @@ while (osszeg < 100) {
 System.out.println("Számláló értéke: " + szamlalo);
 System.out.println("Összeg értéke: " + osszeg);
 ```
-		
-- Do-While ciklus
+
+### Do-While ciklus
+
 - Itt sem tudjuk, hogy hányszor kell ismételni
 - hátultesztelős ciklus
 - egyszer biztosan lefut, utána ellenőrzi a feltételt,
@@ -864,8 +879,12 @@ System.out.println("6-ost dobtál gratulálok!!!");
 <details>
 <summary>Programozási tételek</summary>
 
+---
+
 <details>
 <summary>Eldöntés</summary>
+
+---
 
 - egy halmazon belül vizsgáljuk,
 - hogy egy érték benne van,
@@ -930,6 +949,8 @@ public static void main(String[] args) {
 <details>
 <summary>Kiválogatás</summary>
 
+---
+
 - egy halmaz elemei közül kiválogatjuk
 - az adott tulajdonságú elemket
 
@@ -986,6 +1007,8 @@ public static void main(String[] args) {
 <details>
 <summary>Maximum kiválasztás</summary>
 
+---
+
 - egy halmazon belül keressük
 - a legnagyobb értékű elemet.
 
@@ -1013,6 +1036,8 @@ public static void main(String[] args) {
 <details>
 <summary>Minimum kiválasztás</summary>
 
+---
+
 - Egy halmazon belül keressük a legkisebb értékű elemet
 
 ```
@@ -1036,6 +1061,8 @@ public static void main(String[] args) {
 
 <details>
 <summary>Megszámlálás</summary>
+
+---
 
 - Meghatározza egy halmazon belül az adott tulajdonságú elemek számát
 
@@ -1061,6 +1088,8 @@ public static void main(String[] args) {
 
 <details>
 <summary>Metszet</summary>
+
+---
 
 - azoknak az elemeknek a kiválasztása,
 - amelyek mind a két halmazban megtalálhatóak.
@@ -1136,6 +1165,8 @@ public static void main(String[] args) {
 <details>
 <summary>Összegzés</summary>
 
+---
+
 - Meghatározza egy számsorozat(tömb) elemeinek összegét
 
 ```
@@ -1154,6 +1185,8 @@ public static void main(String[] args) {
 
 <details>
 <summary>Unio</summary>
+
+---
 
 - két halmaz elemei közül legalább az egyikben szerepelnie kell.
 - A halmazokon belül nincs ismétlődés
