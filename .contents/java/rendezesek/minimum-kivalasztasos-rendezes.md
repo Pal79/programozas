@@ -1,3 +1,8 @@
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+# Minimum kiválasztásos rendezés
+
 ```
 public static void main(String[] args) {
 		
@@ -39,3 +44,10 @@ private static void minChangeSort(int[] arr) {
 	}
 }
 ```
+
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
