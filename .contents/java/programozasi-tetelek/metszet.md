@@ -1,3 +1,8 @@
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+# Metszet
+
 - azoknak az elemeknek a kiválasztása,
 - amelyek mind a két halmazban megtalálhatóak.
 
@@ -66,3 +71,10 @@ public static void main(String[] args) {
 	}
 }
 ```
+
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
