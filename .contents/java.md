@@ -33,9 +33,9 @@
 <details>
 <summary>Rendezések</summary>
 
-- Buborékrendezés
-- Egyszerű cserés rendezés
-- Minimum kiválasztásos rendezés
+- [Buborék rendezés](java/rendezesek/buborek-rendezes.md)
+- [Egyszerű cserés rendezés](java/rendezesek/egyszeru-cseres-rendezes.md)
+- [Minimum kiválasztásos rendezés](java/rendezesek/minimum-kivalasztasos-rendezes.md)
 
 </details>
 
