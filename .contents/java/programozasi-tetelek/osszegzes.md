@@ -1,3 +1,8 @@
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+# Összegzés
+
 - Meghatározza egy számsorozat(tömb) elemeinek összegét
 
 ```
@@ -11,3 +16,10 @@ public static void main(String[] args) {
 	System.out.println(result);
 }
 ```
+
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
