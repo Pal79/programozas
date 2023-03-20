@@ -18,15 +18,15 @@
 <details>
 <summary>Programozási tételek</summary>
 
-- Eldöntés
-- Kiválasztás
-- Kiválogatás
-- Maximum kiválasztás
-- Minimum kiválasztás
-- Megszámlálás
-- Metszet
-- Összegzés
-- Unio
+- [Eldöntés](java/programozasi-tetelek/eldontes.md)
+- [Kiválasztás](java/programozasi-tetelek/kivalasztas.md)
+- [Kiválogatás](java/programozasi-tetelek/kivalogatas.md)
+- [Maximum kiválasztás](java/programozasi-tetelek/maximum-kivalasztas.md)
+- [Minimum kiválasztás](java/programozasi-tetelek/minimum-kivalasztas.md)
+- [Megszámlálás](java/programozasi-tetelek/megszamlalas.md)
+- [Metszet](java/programozasi-tetelek/metszet.md)
+- [Összegzés](java/programozasi-tetelek/osszegzes.md)
+- [Unio](java/programozasi-tetelek/unio.md)
 
 </details>
 
