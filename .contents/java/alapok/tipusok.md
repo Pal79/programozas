@@ -1,11 +1,7 @@
----
-
 - [java menü](../../java.md)
 - [Főmenü](../../../README.md)
 
----
-
-
+# Típusok
 
 ### Alapvető típusok
 
