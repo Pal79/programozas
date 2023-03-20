@@ -39,4 +39,11 @@
 
 </details>
 
+<details>
+<summary>Kivételkezelés</summary>
+
+- [Kivételkezelés](java/kivetelkezeles/kivetelkezeles.md)
+
+</details>
+
 [Főmenü](../README.md)
