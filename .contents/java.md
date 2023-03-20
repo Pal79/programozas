@@ -5,13 +5,13 @@
 <details>
 <summary>Alapok</summary>
 
-- Típusok
-- OPERÁTOROK -> műveletvégző "jelek"
-- Számítások
-- Véletlen számok generálása
-- Kiírás, beolvasás
-- Elágazások
-- Ciklusok
+- [Típusok](java/alapok/tipusok.md)
+- [OPERÁTOROK -> műveletvégző "jelek"](java/alapok/operatorok)
+- [Számítások](java/alapok/szamitasok.md)
+- [Véletlen számok generálása](java/alapok/veletlen-szamok.md)
+- [Kiírás, beolvasás](java/alapok/kiiras-beolvasas.md)
+- [Elágazások](java/alapok/elagazasok.md)
+- [Ciklusok](java/alapok/ciklusok.md)
 
 </details>
 
