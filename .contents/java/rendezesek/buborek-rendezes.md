@@ -1,3 +1,8 @@
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+# Buborék rendezés
+
 ```
 public static void main(String[] args) {
 
@@ -30,3 +35,10 @@ public static int[] bubbleSort(int[] arr) {
 	return arr;
 }
 ```
+
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
