@@ -1,3 +1,8 @@
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+# Megszámlálás
+
 - Meghatározza egy halmazon belül az adott tulajdonságú elemek számát
 
 ```
@@ -17,3 +22,10 @@ public static void main(String[] args) {
 	System.out.println("A tömb páros elemeinek száma: " + evenCount + "\nA tömb páratlan elemeinek száma: " + unmatchedCount);
 }
 ```
+
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
