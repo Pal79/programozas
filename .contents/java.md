@@ -49,7 +49,7 @@
 <details>
 <summary>Tömbök</summary>
 
-- [Tömbök](java/tombok/tombok.md)
+- [Tömb](java/tombok/tomb.md)
 - [Mátrix](java/tombok/matrix.md)
 
 </details>
