@@ -1,3 +1,8 @@
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
+
 # Alapvető típusok
 
 | Primitív típus | Osztály | Leírás | min | max |
@@ -199,6 +204,7 @@ double fraction4 = (double)10/3;
 System.out.println(fraction4);
 ```
 
-- [Alapok](../alapok.md)
+---
+
 - [java menü](../../java.md)
-- [Főmenü](README.md)
+- [Főmenü](../../../README.md)
