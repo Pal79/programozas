@@ -46,4 +46,12 @@
 
 </details>
 
+<details>
+<summary>Tömbök</summary>
+
+- [Tömbök](java/tombok/tombok.md)
+- [Mátrix](java/tombok/matrix.md)
+
+</details>
+
 [Főmenü](../README.md)
