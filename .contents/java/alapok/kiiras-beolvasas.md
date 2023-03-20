@@ -1,4 +1,13 @@
-# Scanner és BufferedReader
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
+
+# Kiírás, beolvasás
+
+## Scanner és BufferedReader
 
 - Scanner a régebbi osztály, BufferedReader az újabb
 - BufferedReader - gyorsabb a feldolgozás, szálbiztos, szinkronizált és többszálú
@@ -84,3 +93,10 @@ brObj.close();
 ```
 scObj.close();
 ```
+
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
