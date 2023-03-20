@@ -1,3 +1,8 @@
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+# Minimum kiválasztás
+
 - Egy halmazon belül keressük a legkisebb értékű elemet
 
 ```
@@ -16,3 +21,10 @@ public static void main(String[] args) {
 	System.out.println("Minimum érték a tömbben: " + min + "\nMinimum érték indexe: " + minIndex);
 }
 ```
+
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
