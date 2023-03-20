@@ -3,7 +3,6 @@
 - [java menü](../../java.md)
 - [Főmenü](../../../README.md)
 
----
 
 # Véletlen számok
 
