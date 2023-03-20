@@ -1,3 +1,8 @@
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+# Eldöntés
+
 - egy halmazon belül vizsgáljuk,
 - hogy egy érték benne van,
 - vagy nincs.
@@ -30,3 +35,10 @@ public static void main(String[] args) {
 	}
 }
 ```
+
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
