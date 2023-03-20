@@ -1,3 +1,8 @@
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+# Kiválogatás
+
 - egy halmaz elemei közül kiválogatjuk
 - az adott tulajdonságú elemket
 
@@ -48,3 +53,10 @@ public static void main(String[] args) {
 	}
 }
 ```
+
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
