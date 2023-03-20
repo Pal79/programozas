@@ -1,3 +1,12 @@
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
+
+# Véletlen számok
+
 > new operátor memória terület foglalás - példányosítás
 
 > r néven létrejön az objektum
@@ -30,3 +39,10 @@ System.out.println("Véletlen szám 5-10: " + tesztVelSzam3);
 ```
 
 > Általános képlet: r.nextInt((max-min)+1)+min;
+
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
