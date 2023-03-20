@@ -1,3 +1,7 @@
+<h1 align="center">
+<img src="../.pictures/Duke.png" width="128" alt="java logo"/>
+</h1>
+
 <details>
 <summary>Alapok</summary>
 
