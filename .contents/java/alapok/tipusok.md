@@ -5,7 +5,9 @@
 
 ---
 
-# Alapvető típusok
+
+
+### Alapvető típusok
 
 | Primitív típus | Osztály | Leírás | min | max |
 | :------------- | :------ | :----- | :-- | :-- |
@@ -24,7 +26,7 @@
 
 > float és double: POSITIVE_INFINITY és a NEGATIVE_INFINITY
 
-# Boolean - Logikai típus
+### Boolean - Logikai típus
 
 > csak igaz/hamis értéket vehet fel (true vagy false) 1 vagy 0
 
@@ -38,7 +40,7 @@ sold = true;
 System.out.println(sold); // kimenet: true
 ```
 
-# Szöveg és karakterek - String és char
+### Szöveg és karakterek - String és char
 
 
 ```
@@ -48,7 +50,7 @@ char letter = 'R'; //szimpla aposztrof
 System.out.println(letter); // kimenet: R
 ```
 
-# Kiírás és hozzáfűzés + operátorral
+### Kiírás és hozzáfűzés + operátorral
 
 ```
 String text;
@@ -56,7 +58,7 @@ text = "teszt szöveg";
 System.out.println("A text változó tartalma: " + text + "...");
 ```
 
-# string literál felvétele
+### String literál felvétele
 
 ```
 String text2 ="Teszt szöveg2";
@@ -68,7 +70,7 @@ String text3 = "Ez egy java \n String (új sorban...)";
 System.out.println(text3);
 ```
 
-# speciális karakterek
+### speciális karakterek
 
 - \\n - sortörés
 - \\t - tabulátor
@@ -106,7 +108,7 @@ System.out.println(name.charAt(0)); //name.charAt(0) = 't';
 
 > felílárást - StringBuilder osztállyal lehet megoldani
 
-# Egész számok - primitív típus
+### Egész számok - primitív típus
 
 > deklaráció: number nevű változó, amelynek típusa egész szám
 
@@ -140,7 +142,7 @@ System.out.println("Két szám összege: " + (number + number2));
 
 > kimenet: 300
 
-# int vs Integer
+### int vs Integer
 
 > int -> primitív tipus
 > Integer -> object
@@ -167,7 +169,7 @@ Integer szamObjTeszt = null;
 int szamPrimitivTeszt2 = 0;
 ```
 
-# Double
+### Double
 
 > 3.0 ADATVESZTÉS (egész számot egész számmal osztottam):
 
@@ -176,8 +178,8 @@ double fraction = 10/3;
 System.out.println(fraction);
 ```
 
-### Hogyan lehet megoldani?
-		
+##### Hogyan lehet megoldani?
+
 > 1. Megoldás
 
 ```
@@ -210,3 +212,5 @@ System.out.println(fraction4);
 
 - [java menü](../../java.md)
 - [Főmenü](../../../README.md)
+
+---
