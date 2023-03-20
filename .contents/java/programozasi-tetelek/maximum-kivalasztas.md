@@ -1,3 +1,8 @@
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+# Maximum kiválasztás
+
 - egy halmazon belül keressük
 - a legnagyobb értékű elemet.
 
@@ -19,3 +24,10 @@ public static void main(String[] args) {
 	System.out.println("Maximum érték a tömbben: " + max + "\nMaximum érték indexe: " + maxIndex);
 }
 ```
+
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
