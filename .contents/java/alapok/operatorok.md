@@ -1,3 +1,12 @@
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
+
+# Operátorok
+
 > OPERANDUS -> amiken a műveleteket végezzük
 
 ```
@@ -98,3 +107,10 @@ System.out.println(5 <= 5); //true
 - Logikai műveletek vagy -> || OR
 - ternary operator -> (short if) kifejezés(logikai) ? igaz: hamis
 - értékadás
+
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
