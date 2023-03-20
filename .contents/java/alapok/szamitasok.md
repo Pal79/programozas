@@ -1,4 +1,13 @@
-# Math osztály elemei
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
+
+# Számítások
+
+## Math osztály elemei
 
 ### hatványozás
 
@@ -47,3 +56,10 @@ System.out.println(Math.floor(24.9)); //24.0
 ```
 System.out.println(Math.ceil(24.1)); //25.0
 ```
+
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
