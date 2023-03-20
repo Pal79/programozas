@@ -1,3 +1,8 @@
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+# Egyszerű cserés rendezés
+
 ```
 public static void main(String[] args) {
 
@@ -29,3 +34,10 @@ private static int[] exchangeSort(int[] arr) {
 	return arr;
 }
 ```
+
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
