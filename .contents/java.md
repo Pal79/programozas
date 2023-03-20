@@ -6,7 +6,7 @@
 <summary>Alapok</summary>
 
 - [Típusok](java/alapok/tipusok.md)
-- [OPERÁTOROK -> műveletvégző "jelek"](java/alapok/operatorok)
+- [OPERÁTOROK -> műveletvégző "jelek"](java/alapok/operatorok.md)
 - [Számítások](java/alapok/szamitasok.md)
 - [Véletlen számok generálása](java/alapok/veletlen-szamok.md)
 - [Kiírás, beolvasás](java/alapok/kiiras-beolvasas.md)
