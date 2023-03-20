@@ -184,8 +184,6 @@ System.out.println("6-ost dobtál gratulálok!!!");
 
 ---
 
----
-
 - [java menü](../../java.md)
 - [Főmenü](../../../README.md)
 
