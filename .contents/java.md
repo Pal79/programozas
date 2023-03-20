@@ -54,4 +54,14 @@
 
 </details>
 
+<details>
+<summary>Fájlkezelés</summary>
+
+- [Olvasás](java/fajlkezeles/olvasas.md)
+- [Darabolás](java/fajlkezeles/darabolas.md)
+- [Írás](java/fajlkezeles/iras.md)
+- [Írás 2](java/fajlkezeles/iras2.md)
+
+</details>
+
 [Főmenü](../README.md)
