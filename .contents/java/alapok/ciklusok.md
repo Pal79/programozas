@@ -1,3 +1,12 @@
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
+
+# Ciklusok
+
 - Ciklust mikor használunk?
 - Ha ismétlődő utasításra vagy utasításokra van szükség
 - For ciklust mikor használjuk?
@@ -172,3 +181,12 @@ do {
 System.out.println();
 System.out.println("6-ost dobtál gratulálok!!!");
 ```
+
+---
+
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
