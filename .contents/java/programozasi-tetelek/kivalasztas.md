@@ -1,3 +1,8 @@
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+# Kiválasztás
+
 - egy sorozatban keresünk egy elemet,
 - de biztosan tudjuk, hogy valahol benne van.
 
@@ -17,3 +22,10 @@ public static void main(String[] args) {
 	System.out.println("A keresett szám indexe: " + selection(arr, index));
 }
 ```
+
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
