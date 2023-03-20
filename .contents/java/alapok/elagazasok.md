@@ -1,3 +1,12 @@
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
+
+# Elágazások
+
 - Mikor használjuk?
 - Egy feltételtől függően a programunkat valamilyen irányba szeretnénk vezérelni.
 - Három fajtája van: egyirányú, kétirányú és több irányú
@@ -169,3 +178,10 @@ System.out.println();
 
 sc.close();
 ```
+
+---
+
+- [java menü](../../java.md)
+- [Főmenü](../../../README.md)
+
+---
