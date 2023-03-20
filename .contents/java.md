@@ -64,4 +64,14 @@
 
 </details>
 
+<details>
+<summary>Gyűjtemények</summary>
+
+- [HashTable](java/gyujtemenyek/hashtable.md)
+- [List Interface](java/gyujtemenyek/list.md)
+- [Map Interface](java/gyujtemenyek/map.md)
+- [Set Interface](java/gyujtemenyek/set.md)
+
+</details>
+
 [Főmenü](../README.md)
