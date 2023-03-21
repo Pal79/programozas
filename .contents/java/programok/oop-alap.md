@@ -1,7 +1,7 @@
 - [java menü](../../java.md)
 - [Főmenü](../../../README.md)
 
-> Henger.java
+## Henger.java
 
 ```
 public class Henger {
@@ -69,7 +69,7 @@ public class Henger {
 }
 ```
 
-> TomorHenger.java
+## TomorHenger.java
 
 ```
 public class TomorHenger extends Henger {
@@ -113,7 +113,7 @@ public class TomorHenger extends Henger {
 }
 ```
 
-> Cso.java
+## Cso.java
 
 ```
 public class Cso extends TomorHenger {
@@ -144,7 +144,7 @@ public class Cso extends TomorHenger {
 }
 ```
 
-> Main.java
+## Main.java
 
 ```
 public class Main {
