@@ -3,54 +3,88 @@
 
 ---
 
-## IsPrime.java
+## Prime.java
 
 ```
-public class IsPrime {
+public class Prime {
 	
-	boolean prime = true;
+boolean prime = true;
 	
-	public void isPrime(int num) {
-		if(num == 0 || num == 1) {
-			System.out.println("Az adott szám \"" + num + "\" nem prímszám!");
+	public String isPrime(int num) {
+		String result = "";
+		
+		if(num == 1 || num == 2) {
+			result = "A megadott szám: " + num + " nem prímszám."; 
 			prime = false;
 		} else {
 			for(int i = 2; i <= Math.sqrt(num); i++) {
 				if(num % i == 0) {
 					prime = false;
-					System.out.println("Az adott szám \"" + num + "\" nem prímszám!");
+					result = "A megadott szám: " + num + " nem prímszám.";
 					break;
 				}
 			}
 		}
 		
 		if(prime == true) {
-			System.out.println("Az adott szám \"" + num + "\" prímszám!");
+			result = "A megadott szám: " + num + " prímszám.";
 		}
-	}
-	
-	public void primesWriteOutAndCount(int num) {
-		int count = 0;
 		
-		System.out.print("Prímszámok 1 és " + num + " között: ");
-		for(int i = 2; i <= num; i++) {
-			prime = true;
+		return result;
+	}
+
+}
+```
+
+---
+
+## SieveOfEratosthenes.java
+
+```
+public class SieveOfEratosthenes {
+	
+	public void sieveOfEratosthenes() {
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		System.out.print("Megddig írjuk ki a prímeket: ");
+		try {
+			Integer maxNumber = Integer.parseInt(br.readLine());
 			
-			for(int j = 2; j <= i/2; j++) {
-				if(i % j == 0) {
-					prime = false;
-					break;
+			Boolean[] arr = new Boolean[maxNumber +1];
+			arr[0] = false;
+			arr[1] = false; // 0 és 1 false alapból 
+			
+			for(int i = 2; i <= maxNumber; i++) {
+				arr[i] = true; // mindent igazra állítok
+			}
+			
+			for(int i = 2; i * i <= maxNumber; i++) {
+				if(arr[i]) {
+					// prím többszörösei kiszitálása
+					for (int j = i * i; j <= maxNumber; j += i) {
+						arr[j] = false;
+					}
 				}
 			}
-			if(prime == true) {
-				count++;
-				System.out.print(i + " ");
+			
+			for(int i = 0; i <= maxNumber; i++) {
+				if(arr[i]) { // amennyiben igaz, kiírjuk a számot
+					System.out.print(i + " ");
+				}
 			}
+			
+			br.close();
+			
+		} catch (NumberFormatException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-		System.out.println();
-		
-		System.out.println("Összesen " + count + " darab prímszám van 1 és " + num + " között!");
 	}
+
 }
 ```
 
@@ -60,26 +94,29 @@ public class IsPrime {
 
 ```
 public class Main {
+	
+	private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 	public static void main(String[] args) {
 		
-		IsPrime prime = new IsPrime();
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		Prime primeObj = new Prime();
+		SieveOfEratosthenes erathosObj = new SieveOfEratosthenes();
 		
 		try {
-			System.out.print("Kérlek adj meg egy egész számot, hogy megtudd, prímszám e az adott szám: ");
+			System.out.print("Adj meg egy számot: ");
 			int num = Integer.parseInt(br.readLine());
-			prime.isPrime(num);
 			
-			System.out.print("Kérlek adj meg egy számot, hogy megtudd, mely prímszámok vannak 1 és a megadott szám között: ");
-			num = Integer.parseInt(br.readLine());
-			prime.primesWriteOutAndCount(num);
+			System.out.println(primeObj.isPrime(num));
+			
+			erathosObj.sieveOfEratosthenes();
 		} catch (NumberFormatException e) {
-			System.out.println("Egész számot kell megadni!");
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		} catch (IOException e) {
-			System.out.println("IO kivételes hiba történt!");
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-
+		
 	}
 
 }
