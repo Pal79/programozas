@@ -74,4 +74,11 @@
 
 </details>
 
+<details>
+<summary>Programok</summary>
+
+- [OOP alapok](java/programok/oop-alap.md)
+
+</details>
+
 [Főmenü](../README.md)
