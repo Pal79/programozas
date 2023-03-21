@@ -1,6 +1,8 @@
 - [java menü](../../java.md)
 - [Főmenü](../../../README.md)
 
+---
+
 ## Henger.java
 
 ```
@@ -69,6 +71,8 @@ public class Henger {
 }
 ```
 
+---
+
 ## TomorHenger.java
 
 ```
@@ -113,6 +117,8 @@ public class TomorHenger extends Henger {
 }
 ```
 
+---
+
 ## Cso.java
 
 ```
@@ -143,6 +149,8 @@ public class Cso extends TomorHenger {
 
 }
 ```
+
+---
 
 ## Main.java
 
