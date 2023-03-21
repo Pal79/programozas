@@ -80,6 +80,7 @@
 - [OOP alapok](java/programok/oop-alap.md)
 - [Prímszámok](java/programok/prime.md)
 - [Faktoriális](java/programok/factorial.md)
+- [Fibonacci számok](java/programok/fibonacci.md)
 
 </details>
 
