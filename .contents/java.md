@@ -78,6 +78,7 @@
 <summary>Programok</summary>
 
 - [OOP alapok](java/programok/oop-alap.md)
+- [Prímszámok](java/programok/prime.md)
 
 </details>
 
