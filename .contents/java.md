@@ -77,7 +77,7 @@
 <details>
 <summary>Programok</summary>
 
-- [Letölthető programok](https://mega.nz/fm/dg1GiBbB)
+- [Letölthető programok](https://mega.nz/folder/ok9AlQTS#zPkyzGfyvKXHpRvdRYSptw)
 - [OOP alapok](java/programok/oop-alap.md)
 - [Prímszámok](java/programok/prime.md)
 - [Faktoriális](java/programok/factorial.md)
